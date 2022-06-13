@@ -1,0 +1,23 @@
+name: Bank
+main: BeeAZ\Bank\Main
+api: 4.0.0
+version: 0.0.1
+author: BeeAZ
+
+commands:
+  bank:
+    description: Mở Giao Diện Ngân Hàng
+    permission: bank.use
+  checkbank:
+    description: Check Tài Khoản Ngân Hàng
+    permission: bank.check
+  setbank:
+    description: Set Tiền Cho Tài Khoản Ngân Hàng
+    permission: bank.set
+permissions:
+ bank.use:
+  default: true
+ bank.check:
+  default: op
+ bank.set:
+  default: op
