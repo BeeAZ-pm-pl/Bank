@@ -236,7 +236,7 @@ class Main extends PluginBase implements Listener{
    $event2 = new BankChangedEvent($this, $playerdata);
    $event2->call();
    $player->sendMessage("§f§lBạn Chuyển Thành Công §b".$money." §fĐến Tài Khoản Của §e".$namedata." §fVới Phí Là §b".$charge." §fXu");
-   $playerdata->sendMessage("§f§lBạn Đã Nhận Được §b".$money." §fTừ Tài Khoản §b".$namedata);
+   $playerdata->sendMessage("§f§lBạn Đã Nhận Được §b".$money." §fTừ Tài Khoản §b".$name);
   }else{
    $player->sendMessage("§f§lBạn Không Đủ §b".$charges." §fTrong Bank");
     }
