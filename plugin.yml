@@ -15,9 +15,9 @@ commands:
     description: Set Tiền Cho Tài Khoản Ngân Hàng
     permission: bank.set
 permissions:
- bank.use:
-  default: true
- bank.check:
-  default: op
- bank.set:
-  default: op
+  bank.use:
+   default: true
+  bank.check:
+   default: op
+  bank.set:
+   default: op
