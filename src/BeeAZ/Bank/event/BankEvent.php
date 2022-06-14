@@ -1,6 +1,6 @@
 <?php
 
-namespace BeeAZ\bank\event;
+namespace BeeAZ\Bank\event;
 
 use BeeAZ\Bank\Main;
 use pocketmine\event\plugin\PluginEvent;
