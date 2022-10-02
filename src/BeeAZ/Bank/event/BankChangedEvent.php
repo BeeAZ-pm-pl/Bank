@@ -2,8 +2,8 @@
 
 namespace BeeAZ\bank\event;
 
-use BeeAZ\bank\Main;
-use BeeAZ\bank\event\BankEvent;
+use BeeAZ\Bank\Main;
+use BeeAZ\Bank\event\BankEvent;
 
 class BankChangedEvent extends BankEvent{
   
